@@ -1,1 +1,54 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 18px;
+  display: block;
+  width: 300px;
+  height: 460px;
+  border-radius: 10px;
+}
+.imagen {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boton {
+  display: block;
+  width: 180px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 1px solid;
+  border-color: #aaa #000 #000 #aaa;
+  background: #fc0;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+button.boton:active {
+  border-color: #000 #aaa #aaa #000;
+}
+.arriba {
+  font-size: 35px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.abajo {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  font-size: 35px;
+  margin-right: 10px;
+  display: flex;
+  margin-top: 50px;
+}
